@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+# IPv4 IPs activas
+
+# info de la red y filtro
+ifconfig | grep -oP 'inet \K\d+(\.\d+){3}'

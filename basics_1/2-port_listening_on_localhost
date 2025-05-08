@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+# Escuchar el puerto 98 en la IP
+
+nc -l -p 98 -s 127.0.0.2
